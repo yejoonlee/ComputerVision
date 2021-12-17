@@ -28,7 +28,7 @@ fps = cap1.get(cv2.CAP_PROP_FPS)
 delay = int(1000 / fps)
 
 fourcc = cv2.VideoWriter_fourcc(*'DIVX')
-out = cv2.VideoWriter('./practice_output/1.chroma_key.avi', fourcc, fps, (w,h))
+out = cv2.VideoWriter('./practice_output/chroma_key.avi', fourcc, fps, (w,h))
 
 # 합성 여부 플래그
 do_composit = False
