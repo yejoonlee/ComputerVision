@@ -54,6 +54,8 @@ while True:
         mask = cv2.inRange(hsv, (50, 150, 0), (70, 255, 255))
         cv2.copyTo(frame2, mask, frame1)
 
+    out.write(frame1)
+
     cv2.imshow('frame', frame1)
     key = cv2.waitKey(delay)
 
