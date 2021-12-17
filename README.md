@@ -10,8 +10,7 @@
 ## 1.chroma_key
 
 ### 결과영상
-./practice_ouput/chroma_key.avi  
-![chroma_key.avi](./practice_ouput/chroma_key.avi)
+<img width="80%" src="https://user-images.githubusercontent.com/35551019/146566964-44d137d3-2575-4099-923f-68689883efb1.gif"/>
 
 ### 실습개요
 초록색 배경을 가진 영상1과 배경으로 쓰일 영상2를 합성하여 크로마키를 구현하는 실습.  
